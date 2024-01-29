@@ -27,6 +27,10 @@ db.once('open', () => {
 const tasksRoutes = require('./routes/tasks');
 app.use('/api/tasks', tasksRoutes);
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
 
 
 // Start server
