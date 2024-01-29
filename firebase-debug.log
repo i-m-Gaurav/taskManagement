@@ -1,0 +1,42 @@
+[debug] [2024-01-28T14:31:45.869Z] ----------------------------------------------------------------------
+[debug] [2024-01-28T14:31:45.871Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\shrut\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-28T14:31:45.871Z] CLI Version:   13.1.0
+[debug] [2024-01-28T14:31:45.871Z] Platform:      win32
+[debug] [2024-01-28T14:31:45.871Z] Node Version:  v20.11.0
+[debug] [2024-01-28T14:31:45.871Z] Time:          Sun Jan 28 2024 20:01:45 GMT+0530 (India Standard Time)
+[debug] [2024-01-28T14:31:45.871Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-28T14:31:45.878Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-28T14:31:45.878Z] > authorizing via signed-in user (shrutiomar429@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\shrut\OneDrive\Documents\task-manager[1]\task-manager
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-28T14:32:11.167Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-01-28T14:32:12.211Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-01-28T14:32:12.211Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project task-manager-8edc9 (Task-manager) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-28T14:32:34.675Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/task-manager-8edc9 [none]
+[debug] [2024-01-28T14:32:35.479Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/task-manager-8edc9 200
+[debug] [2024-01-28T14:32:35.480Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/task-manager-8edc9 {"projectId":"task-manager-8edc9","projectNumber":"850104564035","displayName":"Task-manager","name":"projects/task-manager-8edc9","resources":{"hostingSite":"task-manager-8edc9"},"state":"ACTIVE","etag":"1_0b7bc848-e419-45c3-aabd-c8e0dd761cef"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
